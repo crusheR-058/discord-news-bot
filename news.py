@@ -52,7 +52,8 @@ def title_of(e):
 
 
 def post(webhook, entry, source, avatar):
-    msg = f"**{title_of(entry)}**\n<{source}> · {entry.get('link', '')}"
+    # "-#" is Discord's small grey subtext; the bare link below it gives the preview card
+    msg = f"**{title_of(entry)}**\n-# {source}\n{entry.get('link', '')}"
     if DRY_RUN:
         print("  would post:", msg.replace("\n", " | "))
         return
