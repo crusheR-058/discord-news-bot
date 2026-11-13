@@ -1,7 +1,7 @@
 name: discord-news
 on:
   schedule:
-    - cron: "*/30 * * * *"   # every 30 min (GitHub may delay runs a few minutes)
+    - cron: "*/15 * * * *"   # every 15 min (GitHub may delay runs a few minutes)
   workflow_dispatch:          # "Run workflow" button for manual tests
 
 permissions:

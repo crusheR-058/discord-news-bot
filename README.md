@@ -1,6 +1,6 @@
 # Discord News Bot
 
-Posts tech news, AI model launches, research papers, Reddit posts, YouTube videos and Bluesky posts into 14 Discord channels every 30 minutes.
+Posts tech news, AI model launches, research papers, Reddit posts, YouTube videos and Bluesky posts into 14 Discord channels every 15 minutes.
 Free, no server, no bot account. It runs on GitHub Actions and posts through Discord webhooks.
 
 ## Channels and sources
@@ -60,7 +60,7 @@ A channel without a secret is skipped, so you can start with only some of them.
 
 1. Open the **Actions** tab. If asked, click **I understand my workflows, go ahead and enable them**.
 2. Click **discord-news > Run workflow**. This first run only records existing items.
-3. From now on it runs every 30 minutes and posts new items.
+3. From now on it runs every 15 minutes and posts new items.
 
 ## Change sources
 
@@ -82,6 +82,9 @@ More tested feeds: `https://www.engadget.com/rss.xml`, `https://www.tomshardware
 
 To add a new channel: add a block to `feeds.json` with a new `webhook_secret` name, add a secret with that name (step 3),
 and add a matching line under `env:` in `.github/workflows/news.yml` (for example `WEBHOOK_NEW: ${{ secrets.WEBHOOK_NEW }}`).
+
+Each post uses the profile picture `avatars/<channel>.png` (channel name without `#`, for example `avatars/tech-news.png`).
+To change one, replace that PNG (square, at least 128x128). A channel without a PNG uses the webhook's own picture.
 
 ## Known limits
 

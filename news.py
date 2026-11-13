@@ -6,6 +6,7 @@ MAX_PER_FEED = 3       # newest N per feed per run; the rest are marked seen so 
 KEEP_SEEN = 300        # older ids remembered per feed, on top of everything currently in the feed
 DRY_RUN = os.getenv("DRY_RUN") == "1"
 UA = "Mozilla/5.0 (discord-news-bot)"
+REPO = os.getenv("GITHUB_REPOSITORY")  # owner/name, set by GitHub Actions; used for avatar URLs
 REDDIT_GAP = 65        # seconds; Reddit allows about 1 logged-out request per minute
 last_reddit = 0.0
 
@@ -50,14 +51,17 @@ def title_of(e):
     return text if len(text) <= 250 else text[:247] + "..."
 
 
-def post(webhook, entry, source):
+def post(webhook, entry, source, avatar):
     msg = f"**{title_of(entry)}**\n<{source}> · {entry.get('link', '')}"
     if DRY_RUN:
         print("  would post:", msg.replace("\n", " | "))
         return
+    # allowed_mentions: a feed title containing @everyone must not ping the server
+    body = {"content": msg[:2000], "allowed_mentions": {"parse": []}}
+    if avatar:
+        body["avatar_url"] = avatar
     for _ in range(3):
-        # allowed_mentions: a feed title containing @everyone must not ping the server
-        r = requests.post(webhook, json={"content": msg[:2000], "allowed_mentions": {"parse": []}}, timeout=20)
+        r = requests.post(webhook, json=body, timeout=20)
         if r.status_code == 429:  # Discord rate limit
             time.sleep(float(r.json().get("retry_after", 2)))
             continue
@@ -75,6 +79,9 @@ def main():
         if not webhook and not DRY_RUN:
             print(f"skip {group['channel']}: secret {group['webhook_secret']} not set")
             continue
+        slug = group["channel"].lstrip("#")  # avatars/<channel>.png, served from this repo on GitHub
+        avatar = (f"https://raw.githubusercontent.com/{REPO}/main/avatars/{slug}.png"
+                  if REPO and os.path.exists(f"avatars/{slug}.png") else None)
         for url in group["feeds"]:
             total += 1
             try:
@@ -91,7 +98,7 @@ def main():
             if not first_run:  # first run only remembers items, so the channel isn't flooded with old news
                 for e in reversed(new[:MAX_PER_FEED]):  # oldest first
                     try:
-                        post(webhook, e, source)
+                        post(webhook, e, source, avatar)
                     except requests.RequestException as ex:
                         print(f"  post failed: {ex}")
                         failed += 1
