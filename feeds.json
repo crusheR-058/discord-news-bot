@@ -1,0 +1,159 @@
+[
+  {
+    "channel": "#tech-news",
+    "webhook_secret": "WEBHOOK_TECH_NEWS",
+    "feeds": [
+      "https://techmeme.com/feed.xml",
+      "https://feeds.arstechnica.com/arstechnica/index",
+      "https://www.theverge.com/rss/index.xml",
+      "https://www.wired.com/feed/category/business/latest/rss",
+      "https://hnrss.org/frontpage?points=300"
+    ]
+  },
+  {
+    "channel": "#ai-news",
+    "webhook_secret": "WEBHOOK_AI_NEWS",
+    "feeds": [
+      "https://openai.com/news/rss.xml",
+      "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
+      "https://deepmind.google/blog/rss.xml",
+      "https://blog.google/technology/ai/rss/",
+      "https://mistral.ai/news/rss",
+      "https://huggingface.co/blog/feed.xml",
+      "https://blogs.nvidia.com/feed/",
+      "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "https://www.latent.space/feed"
+    ]
+  },
+  {
+    "channel": "#ai-models",
+    "webhook_secret": "WEBHOOK_AI_MODELS",
+    "feeds": [
+      "https://openrouter.ai/api/v1/models",
+      "https://news.google.com/rss/search?q=%22new+AI+model%22+OR+%22launches+model%22+OR+%22open-weight+model%22+when:1d&hl=en-US&gl=US&ceid=US:en",
+      "https://huggingface.co/api/daily_papers"
+    ]
+  },
+  {
+    "channel": "#dev-tools",
+    "webhook_secret": "WEBHOOK_DEV_TOOLS",
+    "feeds": [
+      "https://github.blog/changelog/feed/",
+      "https://code.visualstudio.com/feed.xml",
+      "https://cursor.com/changelog/rss.xml",
+      "https://zed.dev/blog.rss",
+      "https://blog.jetbrains.com/feed/",
+      "https://bun.sh/rss.xml",
+      "https://deno.com/feed",
+      "https://blog.pragmaticengineer.com/rss/"
+    ]
+  },
+  {
+    "channel": "#product-launches",
+    "webhook_secret": "WEBHOOK_PRODUCT_LAUNCHES",
+    "feeds": [
+      "https://www.producthunt.com/feed",
+      "https://hnrss.org/show?points=100",
+      "https://techcrunch.com/category/startups/feed/"
+    ]
+  },
+  {
+    "channel": "#t3-development",
+    "webhook_secret": "WEBHOOK_T3_DEVELOPMENT",
+    "feeds": [
+      "https://www.youtube.com/feeds/videos.xml?channel_id=UCbRP3c757lWg9M-U7TyEkXA",
+      "https://github.com/t3-oss/create-t3-app/releases.atom",
+      "https://nextjs.org/feed.xml",
+      "https://github.com/trpc/trpc/releases.atom",
+      "https://github.com/drizzle-team/drizzle-orm/releases.atom",
+      "https://tailwindcss.com/feeds/feed.xml"
+    ]
+  },
+  {
+    "channel": "#backend-and-devops",
+    "webhook_secret": "WEBHOOK_BACKEND_DEVOPS",
+    "feeds": [
+      "https://blog.cloudflare.com/rss/",
+      "https://aws.amazon.com/blogs/aws/feed/",
+      "https://www.docker.com/blog/feed/",
+      "https://kubernetes.io/feed.xml",
+      "https://www.postgresql.org/news.rss",
+      "https://feed.infoq.com/",
+      "https://blog.bytebytego.com/feed",
+      "https://feeds.feedburner.com/TheHackersNews"
+    ]
+  },
+  {
+    "channel": "#open-source",
+    "webhook_secret": "WEBHOOK_OPEN_SOURCE",
+    "feeds": [
+      "https://github.blog/open-source/feed/",
+      "https://news.itsfoss.com/rss/",
+      "https://www.phoronix.com/rss.php"
+    ]
+  },
+  {
+    "channel": "#ui-ux-and-design",
+    "webhook_secret": "WEBHOOK_UI_UX_DESIGN",
+    "feeds": [
+      "https://www.smashingmagazine.com/feed/",
+      "https://www.nngroup.com/feed/rss/",
+      "https://uxdesign.cc/feed",
+      "https://www.figma.com/blog/feed/atom.xml",
+      "https://web.dev/feed.xml",
+      "https://developer.chrome.com/static/blog/feed.xml",
+      "https://www.joshwcomeau.com/rss.xml"
+    ]
+  },
+  {
+    "channel": "#ai-discussions",
+    "webhook_secret": "WEBHOOK_AI_DISCUSSIONS",
+    "feeds": [
+      "https://www.reddit.com/r/singularity+OpenAI+ClaudeAI+artificial/top/.rss?t=day",
+      "https://hnrss.org/newest?q=AI+OR+LLM&points=150",
+      "https://simonwillison.net/atom/everything/",
+      "https://bsky.app/profile/simonwillison.net/rss",
+      "https://bsky.app/profile/emollick.bsky.social/rss"
+    ]
+  },
+  {
+    "channel": "#prompt-engineering",
+    "webhook_secret": "WEBHOOK_PROMPT_ENGINEERING",
+    "feeds": [
+      "https://www.reddit.com/r/PromptEngineering/top/.rss?t=day",
+      "https://simonwillison.net/tags/prompt-engineering.atom",
+      "https://znck.github.io/feeds/anthropic-engineering.xml",
+      "https://github.com/openai/openai-cookbook/commits/main.atom"
+    ]
+  },
+  {
+    "channel": "#ai-workflows",
+    "webhook_secret": "WEBHOOK_AI_WORKFLOWS",
+    "feeds": [
+      "https://www.reddit.com/r/n8n+AI_Agents/top/.rss?t=day",
+      "https://www.langchain.com/blog/rss.xml",
+      "https://blog.n8n.io/rss/",
+      "https://simonwillison.net/tags/ai-agents.atom"
+    ]
+  },
+  {
+    "channel": "#model-comparisons",
+    "webhook_secret": "WEBHOOK_MODEL_COMPARISONS",
+    "feeds": [
+      "https://news.google.com/rss/search?q=benchmark+(GPT+OR+Claude+OR+Gemini+OR+Llama+OR+Qwen+OR+DeepSeek)+when:2d&hl=en-US&gl=US&ceid=US:en",
+      "https://news.google.com/rss/search?q=LMArena+OR+%22Artificial+Analysis%22+OR+%22LLM+leaderboard%22+when:7d&hl=en-US&gl=US&ceid=US:en",
+      "https://simonwillison.net/tags/evals.atom"
+    ]
+  },
+  {
+    "channel": "#local-ai",
+    "webhook_secret": "WEBHOOK_LOCAL_AI",
+    "feeds": [
+      "https://www.reddit.com/r/LocalLLaMA+ollama+LocalLLM/top/.rss?t=day",
+      "https://github.com/ollama/ollama/releases.atom",
+      "https://lmstudio.ai/rss.xml",
+      "https://simonwillison.net/tags/local-llms.atom"
+    ]
+  }
+]
