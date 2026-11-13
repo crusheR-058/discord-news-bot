@@ -1,6 +1,5 @@
 {
 "https://techmeme.com/feed.xml": [
-"https://www.techmeme.com/261113/p21#a261113p21",
 "https://www.techmeme.com/261113/p20#a261113p20",
 "https://www.techmeme.com/261113/p19#a261113p19",
 "https://www.techmeme.com/261113/p18#a261113p18",
@@ -17,7 +16,6 @@
 "https://www.techmeme.com/261113/p7#a261113p7"
 ],
 "https://feeds.arstechnica.com/arstechnica/index": [
-"https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
 "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
 "https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/",
 "https://arstechnica.com/science/2026/11/its-the-end-of-the-world-as-we-know-it-per-a-physicists-1960-prediction/",
@@ -39,7 +37,6 @@
 "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/"
 ],
 "https://www.theverge.com/rss/index.xml": [
-"https://www.theverge.com/?p=1033051",
 "https://www.theverge.com/?p=1033026",
 "https://www.theverge.com/?p=1033076",
 "https://www.theverge.com/?p=1032862",
@@ -51,7 +48,6 @@
 "https://www.theverge.com/?p=1032645"
 ],
 "https://www.wired.com/feed/category/business/latest/rss": [
-"6af62d4ad0f1f44dad1a73ce",
 "6af651a752603e59fec1044f",
 "6af508af71a0e5889c82ff5f",
 "6af5df5f8002dae2d83cda97",
@@ -73,7 +69,6 @@
 "6af1762f5613664a71d65ac0"
 ],
 "https://hnrss.org/frontpage?points=300": [
-"https://news.ycombinator.com/item?id=50482379",
 "https://news.ycombinator.com/item?id=50481187",
 "https://news.ycombinator.com/item?id=50478515",
 "https://news.ycombinator.com/item?id=50475713",
@@ -87,7 +82,6 @@
 "https://news.ycombinator.com/item?id=50467087"
 ],
 "https://openai.com/news/rss.xml": [
-"https://openai.com/index/introducing-chatgpt-wallet",
 "https://openai.com/business/customer-stories/amplitude",
 "https://openai.com/business/customer-stories/gondola",
 "https://openai.com/business/customer-stories/holidays-extras-codex",
@@ -1475,7 +1469,6 @@
 "https://openai.com/index/introducing-openai"
 ],
 "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml": [
-"https://www.anthropic.com/news/roadshow-launch",
 "https://www.anthropic.com/claude-fable-and-mythos-5-2",
 "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
 "https://www.anthropic.com/research/early-progress-drug-development",
@@ -1765,7 +1758,6 @@
 "https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems"
 ],
 "https://deepmind.google/blog/rss.xml": [
-"https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
 "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
 "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
 "https://deepmind.google/blog/introducing-alphaproof-code/",
@@ -1867,7 +1859,6 @@
 "https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/"
 ],
 "https://blog.google/technology/ai/rss/": [
-"https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
 "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
 "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
 "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
@@ -1889,7 +1880,6 @@
 "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/"
 ],
 "https://mistral.ai/news/rss": [
-"https://mistral.ai/news/build-with-studio/",
 "https://mistral.ai/news/mistral-large-4-oss/",
 "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/",
 "https://mistral.ai/news/voxtral-3/",
@@ -1985,7 +1975,6 @@
 "https://mistral.ai/news/about-mistral-ai/"
 ],
 "https://huggingface.co/blog/feed.xml": [
-"https://huggingface.co/blog/allenai/xybench",
 "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
 "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
 "https://huggingface.co/blog/3d-lora-finetuning",
@@ -2894,7 +2883,6 @@
 "https://huggingface.co/blog/how-to-train"
 ],
 "https://blogs.nvidia.com/feed/": [
-"https://blogs.nvidia.com/?p=99829",
 "https://blogs.nvidia.com/?p=99861",
 "https://blogs.nvidia.com/?p=99833",
 "https://blogs.nvidia.com/?p=99797",
@@ -2914,7 +2902,6 @@
 "https://blogs.nvidia.com/?p=99615"
 ],
 "https://techcrunch.com/category/artificial-intelligence/feed/": [
-"https://techcrunch.com/?p=3188368",
 "https://techcrunch.com/?p=3186475",
 "https://techcrunch.com/?p=3188328",
 "https://techcrunch.com/?p=3187846",
@@ -2936,7 +2923,6 @@
 "https://techcrunch.com/?p=3187797"
 ],
 "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": [
-"https://www.theverge.com/?p=1032866",
 "https://www.theverge.com/?p=1032518",
 "https://www.theverge.com/?p=1032339",
 "https://www.theverge.com/?p=1032505",
@@ -2948,7 +2934,6 @@
 "https://www.theverge.com/?p=1031260"
 ],
 "https://www.latent.space/feed": [
-"urn:latent-space:post:post_f2e2c3b7-0166-4359-97b6-d24d8f24c73b",
 "urn:latent-space:post:post_b104ae7d-0991-4ed4-b1c3-402861a8cd00",
 "urn:latent-space:post:post_abc084f4-e464-450c-ad72-066cf5d3dfef",
 "urn:latent-space:post:post_b31597d9-ad6f-469e-a051-d723be8fd562",
@@ -2970,7 +2955,6 @@
 "urn:latent-space:post:pod_ep_01a19df0-34a3-7307-96fc-48928908772b"
 ],
 "https://openrouter.ai/api/v1/models": [
-"google/gemini-4-hydrogen",
 "baidu/ernie-light-dt-1.0-intl",
 "google/gemini-4-carbon",
 "nex-agi/nex-n2.6",
@@ -3342,7 +3326,6 @@
 "openai/gpt-4"
 ],
 "https://news.google.com/rss/search?q=%22new+AI+model%22+OR+%22launches+model%22+OR+%22open-weight+model%22+when:1d&hl=en-US&gl=US&ceid=US:en": [
-"CBMidEFVX3lxTE5rSnBnR3JraDZDTEZpRUVKcG5uRmk0NFk4b2l6UTJid0VBY0E4NDk5M3h0U2hkbXNtcTVvdVdIeTNBQ29GV2pnSTVYRzRIUXNYTnNjaGRfNG9ETlVTN1NnU1NLdVBkNGZTaEQ4SDBqUjZJcGRr",
 "CBMirwFBVV95cUxOdWFZcGp2ejhwSk82VDlCUkFYemJQbW1Vc0tRcEtnZjlPVUk0SjdtdWozZzNYUm44VFdhTGJ0VFA0RlBrRlpPWXM1YW80XzljOWNmMWpyRFhOZUhGMElBZFQxZzc1ZEdVODl6NjFLNXUzX0JZUG02ajJVS3lRbFVhbnllQkxCbjhldXA1VXdRaVFSZlNJVjJfekRMUEVILWRFRUl4M2sybzJuOEtaUDRB",
 "CBMihwFBVV95cUxOa1VEOVoyRXhLMzFhb3dCeWtoQkI4Mk9ENEN6NXNhMzRYbnhiYzZFZEFFc2VTdHdaZFI1UlRKbHBjZ1ZwZlZ6RnZWS1lfSEItci05RGU1NkhZVFlfQUVHNG83VXVEYU9Lb1BTU2VqeVRkTUtHTGQ3cEpLN0J1bnN2d1A5MmxsXzg",
 "CBMiygFBVV95cUxPYUtZaTVUUzhrVUVNYVhNTmljX3QtWklTaDRQZ1JYaWpfNEZqa1YyRzlDelZITmRLRXlXQktfMnBtNjdFbm90dUlWWGVrZmVudWtwQVFyUVMzYW40aXdnVGN6eHBMeFNINENCOUZhUGxqVE5yV3dmMXpwWERadHFpWmJnQzYxM2NnYWljb19DMkxkaU1ESl9yb1NyeWJIM3NpOEVSV2VjVVVPN1Z1UjdHZzVkR1ljZEV6MjdQLV8ydDZ5NUgzbkNKemp3",
@@ -3362,7 +3345,6 @@
 "CBMi5wFBVV95cUxQRXVDWXc2Z3VULW9vY0ZqOGJ4V1MzQjFabnBHbFJteTFoMTEwUjJsTDlEclNvQjlnQTd0Y1lESldsWnFXYy1xZzlrYXlkNzdaVGZCTnNtLWw0OVIyNTAwZ3RCWjhLbzRfQV9Qcng3czluWlB4TUw5bVc2bHMxUmlqTVVsQjFOU1pzY3RlZl9MOGswaEQtM2ZBeEwwZHdhcXFJRTdwRTdKUEhoY3hHNG1qVm9TTlJDTXhTaDUtSDRRUlZjNlJ4dzN5ZFRVNzQtNzV1cG0waWFiZGF0clRlYXc3TGk5Z1FFMFXSAecBQVVfeXFMUEV1Q1l3Nmd1VC1vb2NGajhieFdTM0IxWm5wR2xSbXkxaDExMFIybEw5RHJTb0I5Z0E3dGNZREpXbFpxV2MtcWc5a2F5ZDc3WlRmQk5zbS1sNDlSMjUwMGd0Qlo4S280X0FfUHJ4N3M5blpQeE1MOW1XNmxzMVJpak1VbEIxTlNac2N0ZWZfTDhrMGhELTNmQXhMMGR3YXFxSUU3cEU3SlBIaGN4RzRtalZvU05SQ014U2g1LUg0UVJWYzZSeHczeWRUVTc0LTc1dXBtMGlhYmRhdHJUZWF3N0xpOWdRRTBV"
 ],
 "https://huggingface.co/api/daily_papers": [
-"2611.16961",
 "2611.12750",
 "2611.15094",
 "2611.17334",
@@ -3414,7 +3396,6 @@
 "2611.13028"
 ],
 "https://github.blog/changelog/feed/": [
-"https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api",
 "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement",
 "https://github.blog/changelog/2026-11-12-secret-scanning-adds-a-detector-for-cloudflare",
 "https://github.blog/changelog/2026-11-12-public-monitoring-alerts-now-have-direct-links",
@@ -3426,7 +3407,6 @@
 "https://github.blog/changelog/2026-11-10-a-more-informative-github-dashboard"
 ],
 "https://code.visualstudio.com/feed.xml": [
-"https://code.visualstudio.com/updates/v1_147",
 "https://code.visualstudio.com/updates/v1_146",
 "https://code.visualstudio.com/updates/v1_145",
 "https://code.visualstudio.com/updates/v1_144",
@@ -3477,7 +3457,6 @@
 "https://code.visualstudio.com/blogs/2025/03/26/custom-instructions"
 ],
 "https://cursor.com/changelog/rss.xml": [
-"https://cursor.com/changelog/voice-chat",
 "https://cursor.com/changelog/build-live-apps",
 "https://cursor.com/changelog/agent-sdk",
 "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
@@ -3529,7 +3508,6 @@
 "https://cursor.com/changelog/3-0"
 ],
 "https://zed.dev/blog.rss": [
-"https://zed.dev/blog/delta-public-beta",
 "https://zed.dev/blog/agentic-xanadu",
 "https://zed.dev/blog/introducing-delta",
 "https://zed.dev/blog/sandboxing",
@@ -3675,7 +3653,6 @@
 "https://zed.dev/blog/crdts"
 ],
 "https://blog.jetbrains.com/feed/": [
-"https://blog.jetbrains.com/?post_type=pycharm&p=757143",
 "https://blog.jetbrains.com/?post_type=blog&p=755932",
 "https://blog.jetbrains.com/?post_type=idea&p=751503",
 "https://blog.jetbrains.com/?post_type=clion&p=756011",
@@ -3689,7 +3666,6 @@
 "https://blog.jetbrains.com/?post_type=teamcity&p=754496"
 ],
 "https://bun.sh/rss.xml": [
-"https://bun.com/blog/bun-v1.4.4",
 "https://bun.com/blog/bun-v1.4.3",
 "https://bun.com/blog/bun-v1.4.2",
 "https://bun.com/blog/bun-v1.4.1",
@@ -3872,7 +3848,6 @@
 "https://bun.com/blog/bun-v0.1.1"
 ],
 "https://deno.com/feed": [
-"https://deno.com/blog/cloudflare",
 "https://deno.com/blog/v2.9",
 "https://deno.com/blog/v2.8",
 "https://deno.com/blog/clawpatrol",
@@ -4123,7 +4098,6 @@
 "https://deno.com/blog/v1"
 ],
 "https://blog.pragmaticengineer.com/rss/": [
-"6aec73282f23c10001da42a7",
 "6ae30eb2e8571500017259da",
 "6ad9d6a8c85f710001b1d77a",
 "6ad06b769f87750001f8bf33",
@@ -4140,7 +4114,6 @@
 "6a72f95dd1f60900010e34a7"
 ],
 "https://www.producthunt.com/feed": [
-"tag:www.producthunt.com,2005:Post/1293281",
 "tag:www.producthunt.com,2005:Post/1312154",
 "tag:www.producthunt.com,2005:Post/1314761",
 "tag:www.producthunt.com,2005:Post/1282575",
@@ -4192,7 +4165,6 @@
 "tag:www.producthunt.com,2005:Post/1312557"
 ],
 "https://hnrss.org/show?points=100": [
-"https://news.ycombinator.com/item?id=50471650",
 "https://news.ycombinator.com/item?id=50470488",
 "https://news.ycombinator.com/item?id=50457230",
 "https://news.ycombinator.com/item?id=50454625",
@@ -4214,7 +4186,6 @@
 "https://news.ycombinator.com/item?id=50368208"
 ],
 "https://techcrunch.com/category/startups/feed/": [
-"https://techcrunch.com/?p=3187494",
 "https://techcrunch.com/?p=3185934",
 "https://techcrunch.com/?p=3187646",
 "https://techcrunch.com/?p=3187339",
@@ -4236,7 +4207,6 @@
 "https://techcrunch.com/?p=3184774"
 ],
 "https://www.youtube.com/feeds/videos.xml?channel_id=UCbRP3c757lWg9M-U7TyEkXA": [
-"yt:video:XtykeVoSmP8",
 "yt:video:OBNVzWYMKbE",
 "yt:video:yh5IAUow4Hc",
 "yt:video:GtJKFhztgdM",
@@ -4253,7 +4223,6 @@
 "yt:video:nXpoU99pTho"
 ],
 "https://github.com/t3-oss/create-t3-app/releases.atom": [
-"tag:github.com,2008:Repository/495836457/create-t3-app@7.40.0",
 "tag:github.com,2008:Repository/495836457/create-t3-app@7.39.3",
 "tag:github.com,2008:Repository/495836457/create-t3-app@7.39.2",
 "tag:github.com,2008:Repository/495836457/create-t3-app@7.39.0",
@@ -4265,7 +4234,6 @@
 "tag:github.com,2008:Repository/495836457/create-t3-app@7.36.0"
 ],
 "https://nextjs.org/feed.xml": [
-"/blog/november-2026-security-release",
 "/blog/ship-less-javascript-with-ai",
 "/blog/upcoming-nextjs-security-release-november-2026",
 "/blog/improving-navigation-experience-in-v0-with-nextjs-16-4",
@@ -4355,7 +4323,6 @@
 "/blog/next-5"
 ],
 "https://github.com/trpc/trpc/releases.atom": [
-"tag:github.com,2008:Repository/280557054/v11.28.0",
 "tag:github.com,2008:Repository/280557054/v11.27.0",
 "tag:github.com,2008:Repository/280557054/v11.26.0",
 "tag:github.com,2008:Repository/280557054/v11.25.2",
@@ -4367,7 +4334,6 @@
 "tag:github.com,2008:Repository/280557054/v11.21.0"
 ],
 "https://github.com/drizzle-team/drizzle-orm/releases.atom": [
-"tag:github.com,2008:Repository/379865325/v1.0.0-rc.5",
 "tag:github.com,2008:Repository/379865325/0.45.4",
 "tag:github.com,2008:Repository/379865325/0.45.3",
 "tag:github.com,2008:Repository/379865325/drizzle-kit@0.31.11",
@@ -4379,7 +4345,6 @@
 "tag:github.com,2008:Repository/379865325/v1.0.0-beta.21"
 ],
 "https://tailwindcss.com/feeds/feed.xml": [
-"Tailwind Labs is joining Shopify",
 "Tailwind CSS v4.3: Scrollbars, new colors, and more",
 "Vanilla JavaScript support for Tailwind Plus",
 "Compass: A starter kit for online courses",
@@ -4444,7 +4409,6 @@
 "Introducing linting for Tailwind CSS IntelliSense"
 ],
 "https://blog.cloudflare.com/rss/": [
-"01M7950HA1NFDM7V5HW3AMZ0SB",
 "01M742VWRK37TPYYPMXERSCWKN",
 "01M6SMASVYY5EVPJPHFF7WNPFG",
 "01M6PDR60R01B25PZF6REB72W3",
@@ -4466,7 +4430,6 @@
 "01M5AYSGXBWG00KS9KC299XDR8"
 ],
 "https://aws.amazon.com/blogs/aws/feed/": [
-"c0bd049236369d601a6a4b54035a912339948df0",
 "92fb165d30993e71e0cdd70801398f45f9518c7d",
 "7d30dbf9b73fcfe8e471c3e83d1f2ee69b4b3343",
 "a75ee10f33f51c28e1b3189dc509cb78f1c8eaa7",
@@ -4488,7 +4451,6 @@
 "219ec8af489642b8d1376bf298af0a210a58f33c"
 ],
 "https://www.docker.com/blog/feed/": [
-"https://www.docker.com/?p=96008",
 "https://www.docker.com/?p=95875",
 "https://www.docker.com/?p=95692",
 "https://www.docker.com/?p=95691",
@@ -4500,7 +4462,6 @@
 "https://www.docker.com/?p=95131"
 ],
 "https://kubernetes.io/feed.xml": [
-"https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/",
 "https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/",
 "https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/",
 "https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/",
@@ -4552,7 +4513,6 @@
 "https://kubernetes.io/blog/2026/05/04/kubernetes-v1-36-manifest-based-admission-control/"
 ],
 "https://www.postgresql.org/news.rss": [
-"https://www.postgresql.org/about/news/postgresql-187-1712-1616-1520-1425-and-19-rc-2-released-3442/",
 "https://www.postgresql.org/about/news/dasha-110-patroni-auto-discovery-wait-analysis-and-replication-slot-forecasts-for-postgresql-3438/",
 "https://www.postgresql.org/about/news/agensgraph-218-released-graph-database-on-postgresql-18-with-expanded-iso-gql-support-3437/",
 "https://www.postgresql.org/about/news/brume-fk-safe-pseudonymization-for-postgresql-test-and-debug-copies-3434/",
@@ -4564,7 +4524,6 @@
 "https://www.postgresql.org/about/news/pgbadger-v133-has-been-released-3435/"
 ],
 "https://feed.infoq.com/": [
-"https://www.infoq.com/news/2026/11/apple-siri-ai-integration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
 "https://www.infoq.com/news/2026/11/google-ambient-agent-prod/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
 "https://www.infoq.com/news/2026/11/netflix-ai-driven-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
 "https://www.infoq.com/presentations/bbc-software-architecture-influence/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -4581,7 +4540,6 @@
 "https://www.infoq.com/news/2026/11/qcon-ai-newyork-2026-program/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
 ],
 "https://blog.bytebytego.com/feed": [
-"https://blog.bytebytego.com/p/free-live-masterclass-building-ai",
 "https://blog.bytebytego.com/p/top-types-of-hidden-coupling-and",
 "https://blog.bytebytego.com/p/last-call-for-enrollment-build-production",
 "https://blog.bytebytego.com/p/the-roundup-by-bytebytego",
@@ -4603,7 +4561,6 @@
 "https://blog.bytebytego.com/p/llm-prompt-caching-versus-semantic"
 ],
 "https://feeds.feedburner.com/TheHackersNews": [
-"https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
 "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
 "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
 "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
@@ -4655,7 +4612,6 @@
 "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
 ],
 "https://github.blog/open-source/feed/": [
-"https://github.blog/?p=100077",
 "https://github.blog/?p=99949",
 "https://github.blog/?p=99955",
 "https://github.blog/?p=99918",
@@ -4667,7 +4623,6 @@
 "https://github.blog/?p=97607"
 ],
 "https://news.itsfoss.com/rss/": [
-"6af6b8ccb0bf2e0001dcad89",
 "6af6df40b0bf2e0001dcb0d5",
 "6af6dc60b0bf2e0001dcb071",
 "6af54565b0bf2e0001dbf08d",
@@ -4684,7 +4639,6 @@
 "6aeaeb415f3ba700015102d6"
 ],
 "https://www.phoronix.com/rss.php": [
-"https://www.phoronix.com/news/KDE-Frameworks-6.32",
 "https://www.phoronix.com/news/AMD-HRX-Loom-Experiment",
 "https://www.phoronix.com/news/Linux-7.5-hwpoison-panic",
 "https://www.phoronix.com/news/AMD-AOCL-6.0",
@@ -4718,7 +4672,6 @@
 "https://www.phoronix.com/review/amd-epyc-9686f"
 ],
 "https://www.smashingmagazine.com/feed/": [
-"https://smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/",
 "https://smashingmagazine.com/2026/11/ux-insiders-community-in-house-ux-people/",
 "https://smashingmagazine.com/2026/11/making-immersive-llm-chat-experiences-more-accessible/",
 "https://smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/",
@@ -4760,7 +4713,6 @@
 "https://smashingmagazine.com/2026/05/prototype-users-fix-protopie/"
 ],
 "https://www.nngroup.com/feed/rss/": [
-"/articles/agent-harness/?1793988000",
 "/articles/usability-101-introduction-to-usability/?1793988000",
 "/training/january/?1793939661",
 "/articles/ux-agentic-software-factories/?1793379600",
@@ -4782,7 +4734,6 @@
 "/articles/ai-editorial-process/?1789146000"
 ],
 "https://uxdesign.cc/feed": [
-"https://medium.com/p/40bb4e5da147",
 "https://medium.com/p/0e7f83540c9a",
 "https://medium.com/p/3eb67ff167d0",
 "https://medium.com/p/52e6e165eef7",
@@ -4794,7 +4745,6 @@
 "https://medium.com/p/b990d7d53c0e"
 ],
 "https://www.figma.com/blog/feed/atom.xml": [
-"https://www.figma.com/blog/how-3d-transforms-and-figmas-agent-brought-a-launch-video-to-life/",
 "https://www.figma.com/blog/6-easy-ways-to-use-the-figma-agent-right-now/",
 "https://www.figma.com/blog/in-conversation-dylan-field-and-david-friedberg/",
 "https://www.figma.com/blog/workflow-lab-build-with-code-on-the-canvas-using-the-figma-agent-and-code-layers/",
@@ -5572,7 +5522,6 @@
 "https://www.figma.com/blog/design-meet-the-internet/"
 ],
 "https://web.dev/feed.xml": [
-"https://web.dev/blog/web-platform-09-2026?hl=en",
 "https://web.dev/blog/baseline-digest-aug-2026?hl=en",
 "https://web.dev/blog/coding-agents-interop-proposals?hl=en",
 "https://web.dev/blog/interop-2027-proposals?hl=en",
@@ -5584,7 +5533,6 @@
 "https://web.dev/blog/web-platform-06-2026?hl=en"
 ],
 "https://developer.chrome.com/static/blog/feed.xml": [
-"https://developer.chrome.com/blog/new-in-webgpu-155-156?hl=en",
 "https://developer.chrome.com/blog/jpeg-xl-in-chrome?hl=en",
 "https://developer.chrome.com/blog/email-verification-october-2026?hl=en",
 "https://developer.chrome.com/blog/chrome-156-beta?hl=en",
@@ -5596,7 +5544,6 @@
 "https://developer.chrome.com/blog/chrome-155-beta?hl=en"
 ],
 "https://www.joshwcomeau.com/rss.xml": [
-"https://www.joshwcomeau.com/css/interop-2027/",
 "https://www.joshwcomeau.com/css/anchor-positioning/",
 "https://www.joshwcomeau.com/animation/css-vs-javascript/",
 "https://www.joshwcomeau.com/animation/scroll-driven-animations/",
@@ -5687,7 +5634,6 @@
 "https://www.joshwcomeau.com/react/animating-the-unanimatable/"
 ],
 "https://www.reddit.com/r/singularity+OpenAI+ClaudeAI+artificial/top/.rss?t=day": [
-"https://www.reddit.com/r/singularity+OpenAI+ClaudeAI+artificial/top/t3_1xuqlkb",
 "https://www.reddit.com/r/singularity+OpenAI+ClaudeAI+artificial/top/t3_1xul18m",
 "https://www.reddit.com/r/singularity+OpenAI+ClaudeAI+artificial/top/t3_1xv3qfi",
 "https://www.reddit.com/r/singularity+OpenAI+ClaudeAI+artificial/top/t3_1xva8yj",
@@ -5714,7 +5660,6 @@
 "https://www.reddit.com/r/singularity+OpenAI+ClaudeAI+artificial/top/t3_1xur7ie"
 ],
 "https://hnrss.org/newest?q=AI+OR+LLM&points=150": [
-"https://news.ycombinator.com/item?id=50481870",
 "https://news.ycombinator.com/item?id=50481187",
 "https://news.ycombinator.com/item?id=50475713",
 "https://news.ycombinator.com/item?id=50474883",
@@ -5736,7 +5681,6 @@
 "https://news.ycombinator.com/item?id=50382179"
 ],
 "https://simonwillison.net/atom/everything/": [
-"https://simonwillison.net/2026/Nov/12/llm-gemini/",
 "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
 "https://simonwillison.net/2026/Nov/11/aws-emulator/",
 "https://simonwillison.net/2026/Nov/11/tools-tags/",
@@ -5768,7 +5712,6 @@
 "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/"
 ],
 "https://bsky.app/profile/simonwillison.net/rss": [
-"at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n25qivmljs2t",
 "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzyd7r6ttc24",
 "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzxz4j32us24",
 "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzvuqd4ndk24",
@@ -5796,7 +5739,6 @@
 "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mwvldzjzqk2z"
 ],
 "https://bsky.app/profile/emollick.bsky.social/rss": [
-"at://did:plc:flxq4uyjfotciovpw3x3fxnu/app.bsky.feed.post/3n25jpzcdtk2p",
 "at://did:plc:flxq4uyjfotciovpw3x3fxnu/app.bsky.feed.post/3n22xdtz4kk2i",
 "at://did:plc:flxq4uyjfotciovpw3x3fxnu/app.bsky.feed.post/3mzzzl3lbbs2i",
 "at://did:plc:flxq4uyjfotciovpw3x3fxnu/app.bsky.feed.post/3mzyzlpr6lk2r",
@@ -5828,7 +5770,6 @@
 "at://did:plc:flxq4uyjfotciovpw3x3fxnu/app.bsky.feed.post/3mz2nfm6wts2m"
 ],
 "https://www.reddit.com/r/PromptEngineering/top/.rss?t=day": [
-"https://www.reddit.com/r/PromptEngineering/top/t3_1xva8jq",
 "https://www.reddit.com/r/PromptEngineering/top/t3_1xv9s1k",
 "https://www.reddit.com/r/PromptEngineering/top/t3_1xv8emg",
 "https://www.reddit.com/r/PromptEngineering/top/t3_1xvbvhe",
@@ -5843,7 +5784,6 @@
 "https://www.reddit.com/r/PromptEngineering/top/t3_1xul1or"
 ],
 "https://simonwillison.net/tags/prompt-engineering.atom": [
-"https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
 "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
 "https://simonwillison.net/2026/Aug/5/raccoon-heist/",
 "https://simonwillison.net/2026/Aug/3/david-crawshaw/",
@@ -5875,7 +5815,6 @@
 "https://simonwillison.net/2025/Nov/4/code-execution-with-mcp/"
 ],
 "https://znck.github.io/feeds/anthropic-engineering.xml": [
-"https://www.anthropic.com/engineering/redesigning-source-control",
 "https://www.anthropic.com/engineering/how-we-contain-claude",
 "https://www.anthropic.com/engineering/april-23-postmortem",
 "https://www.anthropic.com/engineering/managed-agents",
@@ -5903,7 +5842,6 @@
 "https://www.anthropic.com/engineering/contextual-retrieval"
 ],
 "https://github.com/openai/openai-cookbook/commits/main.atom": [
-"tag:github.com,2008:Grit::Commit/2658c92cd4cd562504571b9d7491fc51524a7dc9",
 "tag:github.com,2008:Grit::Commit/2d5b1a9b6e706a732b03048d701c7086fda5f010",
 "tag:github.com,2008:Grit::Commit/86c505082d8eb19c36c98cff0c0ea6855583c905",
 "tag:github.com,2008:Grit::Commit/0f38c4a3c6cff6ae72da564a153e4bb7fd5b7636",
@@ -5925,7 +5863,6 @@
 "tag:github.com,2008:Grit::Commit/5bd6cb40b6b84b69b2032d810610aa85064102df"
 ],
 "https://www.reddit.com/r/n8n+AI_Agents/top/.rss?t=day": [
-"https://www.reddit.com/r/n8n+AI_Agents/top/t3_1xujqlo",
 "https://www.reddit.com/r/n8n+AI_Agents/top/t3_1xv2f5i",
 "https://www.reddit.com/r/n8n+AI_Agents/top/t3_1xv2p9b",
 "https://www.reddit.com/r/n8n+AI_Agents/top/t3_1xv1nuy",
@@ -5952,7 +5889,6 @@
 "https://www.reddit.com/r/n8n+AI_Agents/top/t3_1xvcsy6"
 ],
 "https://www.langchain.com/blog/rss.xml": [
-"https://www.langchain.com/blog/series-c",
 "https://www.langchain.com/blog/what-is-eval-driven-development",
 "https://www.langchain.com/blog/own-your-intelligence",
 "https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts",
@@ -6054,7 +5990,6 @@
 "https://www.langchain.com/blog/xata-x-langchain-new-vector-store-and-memory-store-integrations"
 ],
 "https://blog.n8n.io/rss/": [
-"6af487c72c54d200011d87a7",
 "6af193889468c900010cb22b",
 "6aea321080b5aa000133993e",
 "6aea2ea780b5aa0001339911",
@@ -6071,7 +6006,6 @@
 "6ad65812cb248000019ea941"
 ],
 "https://simonwillison.net/tags/ai-agents.atom": [
-"https://simonwillison.net/2026/May/13/boris-mann/",
 "https://simonwillison.net/2026/May/5/our-ai-started-a-cafe-in-stockholm/",
 "https://simonwillison.net/2026/Apr/21/andreas-pahlsson-notini/",
 "https://simonwillison.net/2026/Feb/23/summer-yue/",
@@ -6103,7 +6037,6 @@
 "https://simonwillison.net/2025/Nov/11/agentic-pelican-on-a-bicycle/"
 ],
 "https://news.google.com/rss/search?q=benchmark+(GPT+OR+Claude+OR+Gemini+OR+Llama+OR+Qwen+OR+DeepSeek)+when:2d&hl=en-US&gl=US&ceid=US:en": [
-"CBMia0FVX3lxTFAwd3pPeVg4dHgydjdCa3ktQzZyM1NTM0Roam40UFBqVTZCWFVhTW12enRpdW1jVmpZUnBCS09OVWx6WG93cmpoeG9QUkw0bUx3TGd4VjgtRmxuc3Bfdm9FcjRMMjVETkVleDhj",
 "CBMipAFBVV95cUxNbnlqelBIT1ZXblFBa25zdHlXalhPR2Z2b2xLZ2lmeEtFbUFXS3Mya3FtU0tyeGJrOXpHVEJOdFpDVUZSUTVOUHA0WjRiakw2a2hIRzc3ZHBfM3pDT3dKTDdfMExNQ2FnU1NWSHI3UGpXX2lVSEUxeVYwb2FfNE5vRGJnMjhWSzU5WkFrdmtOdW5Fb0lja1dFN3JUMkQ5R01JRXhNUA",
 "CBMiW0FVX3lxTE9NZEN2U29VSk1ZczRHMjFXblNlZmpWcklid2hWU1lEVE5xN1Y0bGl6UHVtRGFJWjdVMlU0aWlfSG9uTnIwUDk5bTRfdHlnbUVsN0JTRlJ3RTNBekU",
 "CBMikgFBVV95cUxPcUh0ekZxUWRBWEJBVVRfM2gtbUNiT1ZiY3E1dFR1ZnNPTG1tOE02dFFxQXNkd0VYSTU5cmw1Y2pGMGZabXk5ZlpNeFFhY1ByejMtV011SXZDRlFhOEhKSUlncXRQUThScHdqTnB0VERCRWt6bEQ2Q3gyME13QWZQUlo2SlRSN1YyMmQwWklmU1BqQQ",
@@ -6130,7 +6063,6 @@
 "CBMia0FVX3lxTFBLb2dqZ2VwTUJBMGVxMzNkODhmczd0ajNHT1RQc3lZZUpIRGtRVU9fUmVtTXpHbkRrWUx0Q1FRd0VhYjV6UFJaTzREWmdjUEFEYUxCRkViWm5FQWw3YkswOXZXOW0yaDRVTkJn"
 ],
 "https://news.google.com/rss/search?q=LMArena+OR+%22Artificial+Analysis%22+OR+%22LLM+leaderboard%22+when:7d&hl=en-US&gl=US&ceid=US:en": [
-"CBMizgFBVV95cUxONW01UGh3dmVaTnZiR0ZsYVZlUFNHd1l3V3F2M3hXT0tDanNwTGwxcXRSbWV5dnJtYXJPZXFCZFRfLVdpWDRvcEEzU2FpS3RYYU9pX2ptemN5UFBkSFQ0TGhncnRQemlXSGN4NjVoRlM2a3RSQ2ZEVFJFTEZyQkRkWTFuSXJ4dkFNczQ0a04xekdqdXRwTmlvYWxyNzc2V3dnU2E0NV9pRHo5T3E0WXh0WVotX2tMSWNZWmxtSDZBbVk0NkdGUkZZV3ZKTmRWUQ",
 "CBMiiAFBVV95cUxOWkpBOVdYakNfdmRRelI5TlNMTWEzMnhmMVBrRXdJcGJnbGhtY2s0NVRfNnc1dmQzdkVuRmEweDhTQ2YzUzdPUnJnN2VrWERJY2tUaXpBTFVxbnVMcjRIU1pGVHlYbmtZQWt1eGE4TTNVYnFnTkRUN1ZQMU1YOGFoTGRKZFdNOVJS",
 "CBMizgFBVV95cUxOTkJwNlRTSi0zRjZvT25VSlpQMlVKRVE3dFNZZTc5N0hBcjhkYjFXQ1pWVGFWeEp5aTd5WEtYQkRSenZtUnZicm1lNVlzOHRZYmY2MjJaZ3kzaktUR3oxZExYeTBmYVpWOFh3aVlGQzdSSVVsdjFBVHZMcEdST0JIckRCWFJ1SWZMc1dqNXRNY1Rnd0laa1YyUFJPcjVGbUVfRy1vX1NVd3E3NDZmWE9KWUNCalQzVXdNdWozSzByRHdaUXRHM1dZZ0dCQ3VmZw",
 "CBMipAFBVV95cUxOazEzN2VpdkxsT2N3UjhIWDZYQklNeG9YemJRUHJjMHlWdTR5OHdfOTFkZ3I5X3huYnJQamNsSkJkS19lb0VleEw2T0UzRGFCaFB1bkpFeGczX1UtbVRYVWdEVms3ZHY1d056NV9XWV9mVm5LWHNhUUNBUnA0OVZCWTU2WHVZbVVib3I2LTJma1FBUnlkUVF6ZjU5YzV2SVBlblA5bw",
@@ -6161,7 +6093,6 @@
 "CBMilgFBVV95cUxQQy1MVGVPN0RpVy1PcFZ1R25pLTFFN1dER2ptS3E5Qld0N09GOVJIby1mWFQ2UWVtTGJmYnRfRC1IV1l0bkZUek93Q2xDUVp4WmR6c3VqSHpzNDNFXzhBVXpmel9CZ2s0dnlQYjkxOTJxUTZNR2VKOU5WNk1PVTlIU3h0UV9UeG1VVzQ2Z2dGVUhRYkpDLXfSAZsBQVVfeXFMTjUwTEd3M2dYZkpEQzVDWWRmUENpOVZpM01sWk8zZE9NTUNfZ1pCbTFqaG9VS01ld29ic0txaXpxV0FxRnQwVi00aGVmNXJEejRSSms2UU5DVzBIeFNzcXJrb0xZdUhrbTBrUnhGanRmLTRhTGdFN1NWbjBVczBlbmFjSTFuSzZtaTdaaFVwemt1YzhweDRCSGQ5NTg"
 ],
 "https://simonwillison.net/tags/evals.atom": [
-"https://simonwillison.net/2026/Sep/21/jev/",
 "https://simonwillison.net/2026/Jul/31/smevals/",
 "https://simonwillison.net/2026/Jul/22/are-ai-labs-pelicanmaxxing/",
 "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/",
@@ -6193,7 +6124,6 @@
 "https://simonwillison.net/2025/Feb/25/aider-polyglot-leaderboard/"
 ],
 "https://www.reddit.com/r/LocalLLaMA+ollama+LocalLLM/top/.rss?t=day": [
-"https://www.reddit.com/r/LocalLLaMA+ollama+LocalLLM/top/t3_1xuvexw",
 "https://www.reddit.com/r/LocalLLaMA+ollama+LocalLLM/top/t3_1xuxxmb",
 "https://www.reddit.com/r/LocalLLaMA+ollama+LocalLLM/top/t3_1xukt9t",
 "https://www.reddit.com/r/LocalLLaMA+ollama+LocalLLM/top/t3_1xut4o7",
@@ -6220,7 +6150,6 @@
 "https://www.reddit.com/r/LocalLLaMA+ollama+LocalLLM/top/t3_1xutb77"
 ],
 "https://github.com/ollama/ollama/releases.atom": [
-"tag:github.com,2008:Repository/658928958/v0.40.17-rc0",
 "tag:github.com,2008:Repository/658928958/v0.40.16",
 "tag:github.com,2008:Repository/658928958/v0.40.16-rc0",
 "tag:github.com,2008:Repository/658928958/v0.40.15",
@@ -6232,7 +6161,6 @@
 "tag:github.com,2008:Repository/658928958/v0.40.13"
 ],
 "https://lmstudio.ai/rss.xml": [
-"https://lmstudio.ai/blog/splash-engine",
 "https://lmstudio.ai/blog/introducing-introspection",
 "https://lmstudio.ai/blog/how-auto-review-works",
 "https://lmstudio.ai/blog/skills",
@@ -6299,7 +6227,6 @@
 "https://lmstudio.ai/blog/lms"
 ],
 "https://simonwillison.net/tags/local-llms.atom": [
-"https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
 "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
 "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
 "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/",
