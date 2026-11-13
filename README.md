@@ -80,8 +80,8 @@ More tested feeds: `https://www.engadget.com/rss.xml`, `https://www.tomshardware
 `https://blogs.microsoft.com/feed/`, `https://aws.amazon.com/blogs/machine-learning/feed/`, `https://www.coindesk.com/arc/outboundfeeds/rss/`,
 `https://www.space.com/feeds/all`, `https://www.gamedeveloper.com/rss.xml`, `https://dev.to/feed`.
 
-To add a new channel: add a block to `feeds.json` with a new `webhook_secret` name, then add a secret with that name (step 3).
-No other file needs editing.
+To add a new channel: add a block to `feeds.json` with a new `webhook_secret` name, add a secret with that name (step 3),
+and add a matching line under `env:` in `.github/workflows/news.yml` (for example `WEBHOOK_NEW: ${{ secrets.WEBHOOK_NEW }}`).
 
 ## Known limits
 
@@ -94,6 +94,6 @@ No other file needs editing.
 ## Troubleshooting
 
 - Nothing posts: the first run never posts. Wait for the next run, or check the **Actions** tab for red runs.
-- `skip #x: secret ... not set`: the secret name in GitHub does not match `feeds.json`.
+- `skip #x: secret ... not set`: the secret name in GitHub does not match `feeds.json`, or the secret has no line under `env:` in `news.yml`.
 - `FAIL <url>`: that site was down or blocked the request. The other sources still run, and the failed one is retried next run.
 - GitHub pauses scheduled workflows in a repo with no activity for 60 days. The bot commits `seen.json` often, which counts as activity.

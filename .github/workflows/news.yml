@@ -20,8 +20,21 @@ jobs:
           python-version: "3.12"
       - run: pip install feedparser==6.0.11 requests==2.32.3
       - run: python news.py
-        env:
-          ALL_SECRETS: ${{ toJSON(secrets) }}   # new channels need only a new secret, no edit here
+        env:   # one line per channel; a new channel in feeds.json needs a line here too
+          WEBHOOK_TECH_NEWS: ${{ secrets.WEBHOOK_TECH_NEWS }}
+          WEBHOOK_AI_NEWS: ${{ secrets.WEBHOOK_AI_NEWS }}
+          WEBHOOK_AI_MODELS: ${{ secrets.WEBHOOK_AI_MODELS }}
+          WEBHOOK_DEV_TOOLS: ${{ secrets.WEBHOOK_DEV_TOOLS }}
+          WEBHOOK_PRODUCT_LAUNCHES: ${{ secrets.WEBHOOK_PRODUCT_LAUNCHES }}
+          WEBHOOK_T3_DEVELOPMENT: ${{ secrets.WEBHOOK_T3_DEVELOPMENT }}
+          WEBHOOK_BACKEND_DEVOPS: ${{ secrets.WEBHOOK_BACKEND_DEVOPS }}
+          WEBHOOK_OPEN_SOURCE: ${{ secrets.WEBHOOK_OPEN_SOURCE }}
+          WEBHOOK_UI_UX_DESIGN: ${{ secrets.WEBHOOK_UI_UX_DESIGN }}
+          WEBHOOK_AI_DISCUSSIONS: ${{ secrets.WEBHOOK_AI_DISCUSSIONS }}
+          WEBHOOK_PROMPT_ENGINEERING: ${{ secrets.WEBHOOK_PROMPT_ENGINEERING }}
+          WEBHOOK_AI_WORKFLOWS: ${{ secrets.WEBHOOK_AI_WORKFLOWS }}
+          WEBHOOK_MODEL_COMPARISONS: ${{ secrets.WEBHOOK_MODEL_COMPARISONS }}
+          WEBHOOK_LOCAL_AI: ${{ secrets.WEBHOOK_LOCAL_AI }}
       - name: Save seen.json
         run: |
           git config user.name "github-actions[bot]"

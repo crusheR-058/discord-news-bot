@@ -69,10 +69,9 @@ def post(webhook, entry, source):
 def main():
     feeds = json.load(open("feeds.json", encoding="utf-8"))
     seen = json.load(open("seen.json", encoding="utf-8")) if os.path.exists("seen.json") else {}
-    secrets = json.loads(os.getenv("ALL_SECRETS") or "{}")  # all repo secrets, passed by the workflow
     failed = total = 0
     for group in feeds:
-        webhook = secrets.get(group["webhook_secret"]) or os.getenv(group["webhook_secret"])
+        webhook = os.getenv(group["webhook_secret"])  # each secret is passed by name in news.yml
         if not webhook and not DRY_RUN:
             print(f"skip {group['channel']}: secret {group['webhook_secret']} not set")
             continue
