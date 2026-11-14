@@ -98,5 +98,7 @@ To change one, replace that PNG (square, at least 128x128). A channel without a 
 
 - Nothing posts: the first run never posts. Wait for the next run, or check the **Actions** tab for red runs.
 - `skip #x: secret ... not set`: the secret name in GitHub does not match `feeds.json`, or the secret has no line under `env:` in `news.yml`.
+- Each run stays active for about 5.5 hours and posts every 15 minutes, because GitHub often skips scheduled runs.
+  A green run that is still "in progress" is normal. **Run workflow** while one is active only queues the next run.
 - `FAIL <url>`: that site was down or blocked the request. The other sources still run, and the failed one is retried next run.
 - GitHub pauses scheduled workflows in a repo with no activity for 60 days. The bot commits `seen.json` often, which counts as activity.

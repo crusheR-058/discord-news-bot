@@ -1,25 +1,41 @@
 name: discord-news
 on:
   schedule:
-    - cron: "*/15 * * * *"   # every 15 min (GitHub may delay runs a few minutes)
+    # GitHub fires scheduled runs unreliably (often hours apart), so each run loops for ~5.5 hours itself.
+    # This hourly trigger only queues the next run behind the current one (see concurrency).
+    - cron: "17 * * * *"
   workflow_dispatch:          # "Run workflow" button for manual tests
 
 permissions:
   contents: write             # to save seen.json back to the repo
 
-concurrency: discord-news
+concurrency: discord-news     # one run at a time; one more waits in the queue
 
 jobs:
   post:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 355      # GitHub's limit is 360
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install feedparser==6.0.11 requests==2.32.3
-      - run: python news.py
+      - name: Post news every 15 minutes for ~5.5 hours
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          start=$(date +%s)
+          while [ $(( $(date +%s) - start )) -lt 19800 ]; do   # 5.5 h
+            round=$(date +%s)
+            git pull -q --rebase || echo "pull failed"         # pick up edits to feeds.json / news.py
+            python news.py || echo "every feed failed this round"
+            git add seen.json
+            git diff --cached --quiet || { git commit -q -m "update seen items" && { git pull -q --rebase && git push -q || echo "push failed"; }; }
+            wait=$(( 900 - ($(date +%s) - round) ))
+            [ $(( $(date +%s) - start + wait )) -ge 19800 ] && break   # next round would pass 5.5 h
+            [ $wait -gt 0 ] && sleep $wait || true
+          done
         env:   # one line per channel; a new channel in feeds.json needs a line here too
           WEBHOOK_TECH_NEWS: ${{ secrets.WEBHOOK_TECH_NEWS }}
           WEBHOOK_AI_NEWS: ${{ secrets.WEBHOOK_AI_NEWS }}
@@ -35,9 +51,3 @@ jobs:
           WEBHOOK_AI_WORKFLOWS: ${{ secrets.WEBHOOK_AI_WORKFLOWS }}
           WEBHOOK_MODEL_COMPARISONS: ${{ secrets.WEBHOOK_MODEL_COMPARISONS }}
           WEBHOOK_LOCAL_AI: ${{ secrets.WEBHOOK_LOCAL_AI }}
-      - name: Save seen.json
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add seen.json
-          git diff --cached --quiet || (git commit -m "update seen items" && git push)
